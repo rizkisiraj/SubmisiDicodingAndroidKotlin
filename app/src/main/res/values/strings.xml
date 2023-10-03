@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">SubmisiDicoding</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="text_helper">Python for Beginner</string>
+    <string name="type_helper">Programming</string>
+
+    <string-array name="data_name">
+        <item>Python I</item>
+        <item>Discrete Math</item>
+        <item>Design Thinking</item>
+        <item>Web Programming</item>
+        <item>App Fundamentals</item>
+        <item>Data Structures</item>
+        <item>Math Fundamentals</item>
+        <item>Data Science</item>
+        <item>Computer Network</item>
+        <item>Game Programming</item>
+    </string-array>
+
+    <string-array name="data_semester">
+        <item>1st Semester</item>
+        <item>2nd Semester</item>
+        <item>1st Semester</item>
+        <item>3rd Semester</item>
+        <item>2nd Semester</item>
+        <item>2nd Semester</item>
+        <item>1st Semester</item>
+        <item>3rd Semester</item>
+        <item>3rd Semester</item>
+        <item>2nd Semester</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>This course introduces the fundamentals of the Python programming language, covering basic syntax and concepts for beginners.</item>
+        <item>Discrete mathematics is a branch of mathematics that deals with countable, distinct, and separate objects. This course explores topics like set theory, graph theory, and combinatorics.</item>
+        <item>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. In this course, students learn how to tackle complex problems through a human-centered design process.</item>
+        <item>This course focuses on building web applications using various programming languages and technologies, such as HTML, CSS, JavaScript, and web frameworks.</item>
+        <item>This course covers the fundamentals of mobile app development, including app design, user interfaces, and the use of mobile app development platforms.</item>
+        <item>Data structures are essential components of computer science. This course explores various data structures like arrays, linked lists, trees, and graphs, along with their applications in software development.</item>
+        <item>This course provides a foundational understanding of mathematical concepts, including algebra, calculus, and statistics, to support more advanced studies in mathematics and related fields.</item>
+        <item>Data science involves analyzing and extracting insights from large datasets. This course covers topics like data cleaning, statistical analysis, machine learning, and data visualization.</item>
+        <item>This course delves into the principles and protocols that govern computer networks, including topics like network architecture, routing, and network security.</item>
+        <item>Game programming focuses on creating video games and interactive simulations. This course teaches students how to develop games using programming languages and game engines.</item>
+    </string-array>
 </resources>
