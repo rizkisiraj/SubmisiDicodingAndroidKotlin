@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card"
+        android:id="@+id/course_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -22,6 +22,7 @@
 
             <!-- Media -->
             <ImageView
+                android:id="@+id/course_image"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:scaleType="centerCrop"
@@ -35,12 +36,14 @@
 
                 <!-- Title, secondary and supporting text -->
                 <TextView
+                    android:id="@+id/course_title"
                     style="@style/HeadlineMedium.Bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="@string/text_helper" />
 
                 <TextView
+                    android:id="@+id/course_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
