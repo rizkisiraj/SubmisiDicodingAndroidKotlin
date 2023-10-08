@@ -6,5 +6,7 @@ data class Course (
     val title: String,
     val description: String,
     val photo: String,
-    val semester: String
+    val semester: String,
+    val type: String,
+    val author: String,
 ) : Parcelable

@@ -1,10 +1,17 @@
 <resources>
-    <string name="app_name">SubmisiDicoding</string>
+    <string name="app_name">Course App</string>
     <string name="share">Share</string>
     <string name="about">About</string>
     <string name="text_helper">Python for Beginner</string>
     <string name="type_helper">Programming</string>
     <string name="light_bulb">Light Bulb</string>
+    <string name="semester_helper">1st Semester</string>
+    <string name="description">Description</string>
+    <string name="decription_helper">This course introduces the fundamentals of the Python programming language, covering basic syntax and concepts for beginners.</string>
+    <string name="share_button">Share Button</string>
+    <string name="created_by">Created By</string>
+    <string name="name">Rizki Siraj</string>
+    <string name="email">sijarawoods@gmail.com</string>
 
     <string-array name="data_name">
         <item>Python I</item>
@@ -17,6 +24,32 @@
         <item>Data Science</item>
         <item>Computer Network</item>
         <item>Game Programming</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>Programming</item>
+        <item>Programming</item>
+        <item>Design</item>
+        <item>Programming</item>
+        <item>Programming</item>
+        <item>Programming</item>
+        <item>Programming</item>
+        <item>Data</item>
+        <item>Network</item>
+        <item>Programming</item>
+    </string-array>
+
+    <string-array name="data_author">
+        <item>Zahwa Almira</item>
+        <item>Bintang Rahmatan</item>
+        <item>Hanuga Fathur</item>
+        <item>Rizki Siraj</item>
+        <item>Naela Putri</item>
+        <item>Nabila Fauzul</item>
+        <item>Anra Arinal</item>
+        <item>Aditya Juliawan</item>
+        <item>Juan Perez</item>
+        <item>Daud Kiwsky</item>
     </string-array>
 
     <string-array name="data_semester">
@@ -47,7 +80,7 @@
 
     <string-array name="data_photo">
         <item>https://codeop.tech/wp-content/uploads/2021/11/artturi-jalli-g5_rxRjvKmg-unsplash-scaled.jpg</item>
-        <item>data:image/jpeg;base64,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</item>
+        <item>https://miro.medium.com/v2/resize:fit:807/1*R1GVWnaHLDL5WlKpO0DXNQ.png</item>
         <item>https://eduparx.id/blog/wp-content/uploads/2022/12/8-1024x576.jpg</item>
         <item>https://global-uploads.webflow.com/6100d0111a4ed76bc1b9fd54/6193dca3e8165c52e89c7f2b_florian-olivo-4hbJ-eymZ1o-unsplash.jpg</item>
         <item>https://code.visualstudio.com/assets/docs/java/java-webapp/debugging-status-bar.png</item>
